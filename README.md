@@ -2,7 +2,7 @@
 
 ## Container
 
-> **Warning**
+> [!WARNING]
 >
 > you need physical access to the router to enable support for the container feature, it is disabled by default;
 >
@@ -15,7 +15,7 @@
 > running a 3rd party container image on your router could open a security hole/attack vector/attack surface;
 > an expert with knowledge how to build exploits will be able to jailbreak/elevate to root;
 
-> **Note**
+> [!NOTE]
 >
 > External disk is highly recommended
 
