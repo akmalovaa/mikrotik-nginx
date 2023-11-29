@@ -1,5 +1,10 @@
 # Mikrotik NGINX Reverse Proxy
 
+[![mikrotik-nginx](https://akmalov.com/assets/images/logo-6e1a9024944fb78c40d2d0a19ee3c313.png)](https://akmalov.com/blog/mikrotik-nginx)
+
+[Blog Page](https://akmalov.com/blog/mikrotik-nginx)
+
+
 ## Container
 
 > [!WARNING]
@@ -39,6 +44,11 @@ add registry
 
 mount points
 
+
+
+[![mikrotik-dir](https://akmalov.com/assets/images/nginx-dir-8acbf5e9de979fdf4db9d800355f6cd6.png)](https://akmalov.com/blog/mikrotik-nginx)
+
+
 ```
 /container mounts
 add dst=/etc/nginx/nginx.conf name=nginx_conf src=/usb1/nginx/nginx.conf
@@ -53,3 +63,7 @@ docker hub latest version is `nginx:1.25.3-alpine`
 ```
 /container/add remote-image=nginx:1.25.3-alpine interface=veth1 root-dir=usb1/docker/nginx mounts=nginx_conf,nginx_confd,nginx_data,certs
 ``` 
+
+[![mikrotik-container](https://akmalov.com/assets/images/mikrotik-container-4ff6aa0fa5e118009e7da0ea7f954d95.png)](https://akmalov.com/blog/mikrotik-nginx)
+
+
