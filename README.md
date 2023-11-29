@@ -4,13 +4,13 @@
 
 > [!WARNING]
 >
-> you need physical access to the router to enable support for the container feature, it is disabled by default;
-> once the container feature is enabled, containers can be added/configured/started/stopped/removed remotely!
-> if the router is compromised, containers can be used to easily install malicious software in your router and over network;
-> your router is as secure as anything you run in container;
-> if you run container, there is no security guarantee of any kind;
-> running a 3rd party container image on your router could open a security hole/attack vector/attack surface;
-> an expert with knowledge how to build exploits will be able to jailbreak/elevate to root;
+> - you need physical access to the router to enable support for the container feature, it is disabled by default;
+> - once the container feature is enabled, containers can be added/configured/started/stopped/removed remotely!
+> - if the router is compromised, containers can be used to easily install malicious software in your router and over network;
+> - your router is as secure as anything you run in container;
+> - if you run container, there is no security guarantee of any kind;
+> - running a 3rd party container image on your router could open a security hole/attack vector/attack surface;
+> - an expert with knowledge how to build exploits will be able to jailbreak/elevate to root;
 
 > [!NOTE]
 >
